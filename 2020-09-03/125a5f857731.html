@@ -1,0 +1,1214 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="路漫漫其修远兮，吾将上下而求索。"><title>tkinter 记录 | Ehoac の Blog</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/normalize.css/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/pure-min.min.css"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script type="text/javascript" src="//cdn.jsdelivr.net/npm/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="//cdn.jsdelivr.net/gh/codeseven/toastr/build/toastr.min.css"><meta name="generator" content="Hexo 5.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">tkinter 记录</h1><a id="logo" href="/.">Ehoac の Blog</a><p class="description">日常记录</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">tkinter 记录</h1><div class="post-meta">2020-09-03<span> | </span><span class="category"><a href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></span></div><a class="disqus-comment-count" href="/2020-09-03/125a5f857731.html#vcomment"><span class="waline-comment-count" id="/2020-09-03/125a5f857731.html"></span><span> 条评论</span></a><div class="post-content"><h3 id="tk窗口"><a class="markdownIt-Anchor" href="#tk窗口"></a> Tk(窗口)</h3>
+<ul>
+<li>
+<p><code>title()</code>:设置标题</p>
+</li>
+<li>
+<p><code>geometry(&quot;width x height+x+y)</code>:窗口位置</p>
+</li>
+<li>
+<p><code>maxsize(width, height)</code>:拖拽可设置最大尺寸</p>
+</li>
+<li>
+<p><code>minsize(width, height)</code>:拖拽可设置最小尺寸</p>
+</li>
+<li>
+<p><code>configure(bg='color')</code>:窗口颜色</p>
+</li>
+<li>
+<p><code>resizable(True, False)</code>:固定宽度和高度</p>
+</li>
+<li>
+<p><code>state('zoomed')</code>:最大化</p>
+</li>
+<li>
+<p><code>iconify()</code>:最小化</p>
+</li>
+<li>
+<p><code>iconbitmap('xx.ico')</code>: 窗口图标</p>
+</li>
+<li>
+<p><code>winfo_screenwidth()</code>:屏幕宽度</p>
+</li>
+<li>
+<p><code>winfo_screenheight()</code>:屏幕高度</p>
+</li>
+</ul>
+<a id="more"></a>
+<h3 id="widget控件-组件-部件"><a class="markdownIt-Anchor" href="#widget控件-组件-部件"></a> widget(控件、组件、部件)</h3>
+<ul>
+<li>
+<p><code>Button</code>:</p>
+</li>
+<li>
+<p><code>Canvas</code>:</p>
+</li>
+<li>
+<p><code>Checkbutton</code>:</p>
+</li>
+<li>
+<p><code>Entry</code>:</p>
+</li>
+<li>
+<p><code>Frame</code>:</p>
+</li>
+<li>
+<p><code>Label</code>:</p>
+</li>
+<li>
+<p><code>LabelFrame</code>:</p>
+</li>
+<li>
+<p><code>ListBox</code>:</p>
+</li>
+<li>
+<p><code>Menu</code>:</p>
+</li>
+<li>
+<p><code>MenuButton</code>:</p>
+</li>
+<li>
+<p><code>Message</code>:</p>
+</li>
+<li>
+<p><code>OptionMenu</code>:</p>
+</li>
+<li>
+<p><code>PanedWindow</code>:</p>
+</li>
+<li>
+<p><code>RadioButton</code>:</p>
+</li>
+<li>
+<p><code>Scale</code>:</p>
+</li>
+<li>
+<p><code>Scrollbar</code>:</p>
+</li>
+<li>
+<p><code>Spinbox</code>:</p>
+</li>
+<li>
+<p><code>Text</code>:</p>
+</li>
+<li>
+<p><code>Toplevel</code>:</p>
+<p><code>tk in ttk</code></p>
+</li>
+<li>
+<p><code>Button</code>:</p>
+</li>
+<li>
+<p><code>Checkbutton</code>:</p>
+</li>
+<li>
+<p><code>Entry</code>:</p>
+</li>
+<li>
+<p><code>Frame</code>:</p>
+</li>
+<li>
+<p><code>Label</code>:</p>
+</li>
+<li>
+<p><code>LabelFrame</code>:</p>
+</li>
+<li>
+<p><code>MenuButton</code>:</p>
+</li>
+<li>
+<p><code>Radiobutton</code>:</p>
+</li>
+<li>
+<p><code>Scale</code>:</p>
+</li>
+<li>
+<p><code>Scrollbar</code>:</p>
+</li>
+<li>
+<p><code>PanedWindow</code>:</p>
+<p><code>ttk new</code></p>
+</li>
+<li>
+<p><code>Combobox</code>:</p>
+</li>
+<li>
+<p><code>Notebook</code>:</p>
+</li>
+<li>
+<p><code>Progressbar</code>:</p>
+</li>
+<li>
+<p><code>Separetor</code>:</p>
+</li>
+<li>
+<p><code>Sizegrip</code>:</p>
+</li>
+<li>
+<p><code>Treeview</code>:</p>
+</li>
+</ul>
+<h4 id="widget-共同属性"><a class="markdownIt-Anchor" href="#widget-共同属性"></a> widget 共同属性</h4>
+<ul>
+<li><code>Dimensions</code>: 大小
+<ul>
+<li><code>height</code>:</li>
+<li><code>width</code>:</li>
+</ul>
+</li>
+<li><code>Colors</code>:颜色
+<ul>
+<li><code>fg 或 foreground</code>:</li>
+<li><code>bg 或 background</code>:</li>
+</ul>
+</li>
+<li><code>Fonts</code>:字形
+<ul>
+<li><code>family</code>: Helvetica、Times 等</li>
+<li><code>size</code>:</li>
+<li><code>weight</code>: bold、normal 等</li>
+<li><code>slant</code>: italic、roman 等</li>
+<li><code>underline</code>: True 或 False</li>
+<li><code>overstrike</code>: True 或 False</li>
+</ul>
+</li>
+<li><code>Anchor</code>:锚
+<ul>
+<li><code>anchor</code>: nesw</li>
+</ul>
+</li>
+<li><code>Relief styles</code>:属性边框;flat/groove/raised/ridge/solid/sunken</li>
+<li><code>Bitmaps</code>:显示位图
+<ul>
+<li><code>Label(root, bitmap='hourglass')</code>: error/hourglass/info/questhead/question/warning/gray12/gray25/gray50/gray75<br />
+<img src="/images/tkinter/bitmaps.png" alt="Bitmaps" /></li>
+</ul>
+</li>
+<li><code>Cursors</code>:鼠标外形，常用：arrow/circle/mouse/hand1/left_tee/left_side/ll_angle 等<br />
+<img src="/images/tkinter/tkinter_cursors.png" alt="鼠标外形" /></li>
+</ul>
+<h4 id="widget-共用方法"><a class="markdownIt-Anchor" href="#widget-共用方法"></a> widget 共用方法</h4>
+<p><code>Configuration</code></p>
+<ul>
+<li>
+<p><code>config(option=value)</code>:设置属性，可在程序执行时建立或更改属性</p>
+</li>
+<li>
+<p><code>cget('option')</code>:取得 option 参数</p>
+</li>
+<li>
+<p><code>keys()</code>: 获得所有当前 widget 的参数</p>
+<p><code>Event Processing</code></p>
+</li>
+<li>
+<p><code>mainloop()</code>:让程序继续执行，同时进入等待与处理窗口事件</p>
+</li>
+<li>
+<p><code>quit()</code>: <code>Python Shell</code> 窗口结束，但所有窗口继续执行</p>
+</li>
+<li>
+<p><code>update()</code>: 更新窗口画面</p>
+<p><code>Event callbacks</code></p>
+</li>
+<li>
+<p><code>bind(event, callback)</code>: 事件绑定</p>
+</li>
+<li>
+<p><code>unbind(event)</code>: 解除绑定</p>
+</li>
+</ul>
+<p><code>Alarm handlers</code></p>
+<ul>
+<li><code>after(time,callback)</code>: 间隔指定时间后调用 <code>callback()</code>方法</li>
+</ul>
+<h4 id="label标签"><a class="markdownIt-Anchor" href="#label标签"></a> Label(标签)</h4>
+<p><code>Label(父对象, options, ...)</code><br />
+<code>常用options参数</code></p>
+<ul>
+<li><code>anchor</code>:</li>
+<li><code>bg 或 backgroun</code>:</li>
+<li><code>bitmap</code>: 不与 image 参数共存，如果两者都有设置，bitmap 将不起作用</li>
+<li><code>borderwidth 或 bd</code></li>
+<li><code>compound</code>: 图像文字共存时，配置文字与图像的位置关系
+<ul>
+<li><code>Label(root, bitmap='hourglass', compound='left', text='Text')</code></li>
+<li><code>left</code>: 图像在左</li>
+<li><code>right</code>: 图像在右</li>
+<li><code>top</code>: 图像在上</li>
+<li><code>bottom</code>: 图像在下</li>
+<li><code>center</code>: 图像覆盖在图像上方</li>
+</ul>
+</li>
+<li><code>cursor</code>:</li>
+<li><code>fg 或 foreground</code>:</li>
+<li><code>font</code>:</li>
+<li><code>height</code>:</li>
+<li><code>image</code>:</li>
+<li><code>justify</code>: 多行时设置最后一行对齐方式，left/center/right</li>
+<li><code>padx/pady</code>:设置标签文字边界与标签区间的间距</li>
+<li><code>relief</code>:</li>
+<li><code>text</code>:</li>
+<li><code>textvariable</code>:</li>
+<li><code>underline</code>:</li>
+<li><code>width</code>:</li>
+<li><code>wraplength</code>: 设置标签中文字在多少宽度后换行</li>
+</ul>
+<h4 id="button按钮"><a class="markdownIt-Anchor" href="#button按钮"></a> Button(按钮)</h4>
+<p><code>Label(父对象, options, ...)</code><br />
+<code>常用options参数</code></p>
+<ul>
+<li><code>borderwidth 或 bd</code>:边界宽度默认是两个像素</li>
+<li><code>bg 或 background</code>:背景色彩</li>
+<li><code>command</code>:单击功能按钮时，执行的方法</li>
+<li><code>cursor</code>:鼠标移至按钮上时的形状</li>
+<li><code>fg 或 foreground</code>: 前景色彩</li>
+<li><code>font</code>: 字形</li>
+<li><code>height</code>:高，单位是字符高</li>
+<li><code>highlightbackground</code>:取得焦点是背景颜色</li>
+<li><code>image</code>:按钮上的图像</li>
+<li><code>justify</code>: 多行时设置最后一行对齐方式，left/center/right</li>
+<li><code>padx/pady</code>:默认是 1，设置标签文字边界与标签区间的间距</li>
+<li><code>relief</code>:控制文字外框</li>
+<li><code>state</code>:默认为 NORMAL,设为 DISABLE 时灰阶显示，表示不可用</li>
+<li><code>text</code>:名称</li>
+<li><code>undeline</code>:设置第几个文字有下划线，从 0 开始算，默认-1 表示无下划线</li>
+<li><code>width</code>:宽，单位是字符宽</li>
+<li><code>wraplength</code>:限制每行文字数, 默认为 0，表示只有’\n’都会换行</li>
+<li><code>compound</code>: 图像文字共存时，配置文字与图像的位置关系</li>
+</ul>
+<p><code>Lambda方法</code><br />
+通过 Labmda 表达式调用相同方法，但传递不同参数</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Button(root, text=<span class="string">&#x27;Text&#x27;</span>, command=<span class="keyword">lambda</span>:bColor(<span class="string">&#x27;blue&#x27;</span>))</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h4 id="entry文本框"><a class="markdownIt-Anchor" href="#entry文本框"></a> Entry(文本框)</h4>
+<p><code>Entry(父对象, options, ...)</code><br />
+<code>常用options参数</code></p>
+<ul>
+<li><code>borderwidth 或 bd</code>:边界宽度默认是两个像素</li>
+<li><code>bg 或 background</code>:背景色彩</li>
+<li><code>command</code>:单击功能按钮时，执行的方法</li>
+<li><code>cursor</code>:鼠标移至按钮上时的形状</li>
+<li><code>exportselection</code>:如果执行选取时，所选取的字符串会自动输出至剪贴板，如果想要避免，可设置 exportselection=0</li>
+<li><code>fg 或 foreground</code>: 前景色彩</li>
+<li><code>font</code>: 字形</li>
+<li><code>height</code>:高，单位是字符高</li>
+<li><code>highlightbackground</code>:取得焦点是背景颜色</li>
+<li><code>justify</code>: 多行时设置最后一行对齐方式，left/center/right</li>
+<li><code>relief</code>:控制文字外框</li>
+<li><code>selectbackground</code>:选取内容的背景色彩</li>
+<li><code>selectborderwidth</code>:选取内容的边界宽度，预设是 1</li>
+<li><code>selectforeground</code>:选取内容的前景色彩</li>
+<li><code>show</code>:显示输入字符, show=’*'表示显示星号</li>
+<li><code>state</code>:默认为 NORMAL,设为 DISABLE 时灰阶显示，表示不可用</li>
+<li><code>width</code>:宽，单位是字符宽</li>
+<li><code>xscrollcommand</code>:在 x 轴使用滚动条</li>
+</ul>
+<p><code>方法</code></p>
+<ul>
+<li><code>get()</code>:获得目前 Entry 字符串内容</li>
+<li><code>insert(index, s)</code>:向 Entry 中插入字符串</li>
+<li><code>delete(first, last=None)</code>:删除 Entry 中从第 first 到 last-1 字符间的字符串，delete(0,END)删除整个字符串</li>
+</ul>
+<p><code>eval函数</code><br />
+返回数学表达式的结果</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">expr = <span class="built_in">input</span>(<span class="string">&quot;数学表达式:&quot;</span>)</span><br><span class="line"><span class="comment"># expr = 1+2</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;result=&quot;</span>, <span class="built_in">eval</span>(expr))</span><br></pre></td></tr></table></figure>
+<h4 id="radiobutton选项按钮"><a class="markdownIt-Anchor" href="#radiobutton选项按钮"></a> Radiobutton(选项按钮)</h4>
+<p><code>Radiobutton(父对象, options, ...)</code><br />
+<code>常用options参数</code></p>
+<ul>
+<li><code>activebackground</code>:鼠标在选项按钮上时的背景色彩</li>
+<li><code>activeforeground</code>:鼠标在选项按钮上时的前景色彩</li>
+<li><code>anchor</code>:空间大于需求时，选项按钮位置，默认 CENTER</li>
+<li><code>bg 或 background</code>:标签背景色彩或 indicator 的背景色彩</li>
+<li><code>bitmap</code>:位图图像对象</li>
+<li><code>borderwidth 或 bd</code>:边界宽度默认是两个像素</li>
+<li><code>command</code>:更改选项时，执行的方法</li>
+<li><code>cursor</code>:鼠标移至按钮上时的形状</li>
+<li><code>fg 或 foreground</code>: 前景色彩</li>
+<li><code>font</code>: 字形</li>
+<li><code>height</code>:高，单位是字符高,选项上文字有几行，默认一行</li>
+<li><code>highlightbackground</code>:取得焦点时背景颜色</li>
+<li><code>highlightcolor</code>:取得焦点时颜色</li>
+<li><code>image</code>:按钮上的图像</li>
+<li><code>indicatoron</code>:为 0 时，可以建立盒子选项按钮</li>
+<li><code>justify</code>: 多行时设置最后一行对齐方式，left/center/right</li>
+<li><code>padx</code>:默认是 1，设置按钮和文字距离</li>
+<li><code>pady</code>:默认是 1，设置按钮上下间距</li>
+<li><code>selectcolor</code>:选取时色彩</li>
+<li><code>selectimage</code>:选取时图像</li>
+<li><code>state</code>:默认为 NORMAL,设为 DISABLE 时灰阶显示，表示不可用</li>
+<li><code>text</code>:按钮旁文字</li>
+<li><code>textvariable</code>:以变量方式显示选项按钮文字</li>
+<li><code>undeline</code>:设置第几个文字有下划线，从 0 开始算，默认-1 表示无下划线</li>
+<li><code>value</code>:选项按钮的值，可以区分选取的按钮</li>
+<li><code>variable</code>:设置或取得目前选取的单选按钮</li>
+<li><code>width</code>:选项按钮上的文字有几个字符宽，省略自动调整实际宽度</li>
+<li><code>wraplength</code>:限制每行文字数, 默认为 0，表示只有’\n’都会换行</li>
+<li><code>compound</code>: 图像文字共存时，配置文字与图像的位置关系</li>
+</ul>
+<h4 id="checkbutton复选框"><a class="markdownIt-Anchor" href="#checkbutton复选框"></a> Checkbutton(复选框)</h4>
+<p><code>Checkbutton(父对象, options, ...)</code><br />
+<code>常用options参数</code></p>
+<ul>
+<li><code>activebackground</code>:鼠标在选项按钮上时的背景色彩</li>
+<li><code>activeforeground</code>:鼠标在选项按钮上时的前景色彩</li>
+<li><code>bg 或 background</code>:标签背景色彩或 indicator 的背景色彩</li>
+<li><code>bitmap</code>:位图图像对象</li>
+<li><code>borderwidth 或 bd</code>:边界宽度默认是两个像素</li>
+<li><code>command</code>:更改选项时，执行的方法</li>
+<li><code>cursor</code>:鼠标移至按钮上时的形状</li>
+<li><code>disabledforeground</code>:无法操作时的颜色</li>
+<li><code>font</code>: 字形</li>
+<li><code>height</code>:高，单位是字符高,选项上文字有几行，默认一行</li>
+<li><code>highlightbackground</code>:取得焦点时背景颜色</li>
+<li><code>highlightcolor</code>:取得焦点时颜色</li>
+<li><code>image</code>:按钮上的图像</li>
+<li><code>justify</code>: 多行时设置最后一行对齐方式，left/center/right</li>
+<li><code>offvalue</code>:控制变量默认未选取时值是 0</li>
+<li><code>onvalue</code>:控制变量默认未选取时值是 1</li>
+<li><code>padx</code>:默认是 1，设置按钮和文字距离</li>
+<li><code>pady</code>:默认是 1，设置按钮上下间距</li>
+<li><code>relief</code>:默认是 relief=FLAT,控制外框</li>
+<li><code>selectcolor</code>:选取时色彩</li>
+<li><code>selectimage</code>:选取时图像</li>
+<li><code>state</code>:默认为 NORMAL,设为 DISABLE 时灰阶显示，表示不可用</li>
+<li><code>text</code>:按钮旁文字</li>
+<li><code>textvariable</code>:以变量方式显示选项按钮文字</li>
+<li><code>undeline</code>:设置第几个文字有下划线，从 0 开始算，默认-1 表示无下划线</li>
+<li><code>value</code>:选项按钮的值，可以区分选取的按钮</li>
+<li><code>variable</code>:设置或取得目前选取的单选按钮</li>
+<li><code>width</code>:选项按钮上的文字有几个字符宽，省略自动调整实际宽度</li>
+<li><code>wraplength</code>:限制每行文字数, 默认为 0，表示只有’\n’都会换行</li>
+<li><code>compound</code>: 图像文字共存时，配置文字与图像的位置关系</li>
+</ul>
+<h4 id="frame框架"><a class="markdownIt-Anchor" href="#frame框架"></a> Frame(框架)</h4>
+<p><code>Frame(master, options,...)</code><br />
+<code>options</code></p>
+<ul>
+<li><code>bg 或 background</code>:背景色彩</li>
+<li><code>borderwidth 或 bd</code>:边界宽度默认是两个像素</li>
+<li><code>cursor</code>:鼠标移至按钮上时的形状</li>
+<li><code>height</code>:高，单位是字符高</li>
+<li><code>highlightbackground</code>:取得焦点是背景颜色</li>
+<li><code>highlightcolor</code>:取得焦点时颜色</li>
+<li><code>highlightthickness</code>:取得焦点时的厚度</li>
+<li><code>relief</code>:默认是 relief=FLAT,控制外框</li>
+<li><code>width</code>:宽，单位是像素</li>
+</ul>
+<h4 id="labelframe标签框架"><a class="markdownIt-Anchor" href="#labelframe标签框架"></a> LabelFrame(标签框架)</h4>
+<p><code>LabelFrame(master, options,...)</code><br />
+<code>options</code></p>
+<ul>
+<li><code>bg 或 background</code>:背景色彩</li>
+<li><code>borderwidth 或 bd</code>:边界宽度默认是两个像素</li>
+<li><code>cursor</code>:鼠标移至按钮上时的形状</li>
+<li><code>height</code>:高，单位是字符高</li>
+<li><code>highlightbackground</code>:取得焦点是背景颜色</li>
+<li><code>highlightcolor</code>:取得焦点时颜色</li>
+<li><code>highlightthickness</code>:取得焦点时的厚度</li>
+<li><code>labelAnchor</code>:放置标签的位置</li>
+<li><code>relief</code>:默认是 relief=FLAT,控制外框</li>
+<li><code>text</code>:标签内容</li>
+<li><code>width</code>:宽，单位是像素</li>
+</ul>
+<h4 id="toplevel独立窗口"><a class="markdownIt-Anchor" href="#toplevel独立窗口"></a> Toplevel(独立窗口)</h4>
+<p><code>Toplevel(options,...)</code><br />
+<code>options</code></p>
+<ul>
+<li><code>bg 或 background</code>:背景色彩</li>
+<li><code>borderwidth 或 bd</code>:边界宽度默认是两个像素</li>
+<li><code>cursor</code>:鼠标移至按钮上时的形状</li>
+<li><code>fg</code>:文字前景色</li>
+<li><code>font</code>: 字形</li>
+<li><code>height</code>:高，单位是字符高</li>
+<li><code>width</code>:宽，单位是像素</li>
+</ul>
+<h4 id="scale尺度"><a class="markdownIt-Anchor" href="#scale尺度"></a> Scale(尺度)</h4>
+<p><code>Scale(master, options,...)</code><br />
+<code>options</code></p>
+<ul>
+<li><code>activebackground</code>:鼠标在尺度条上时的背景色彩</li>
+<li><code>bg 或 background</code>:背景色彩</li>
+<li><code>borderwidth 或 bd</code>:边界宽度默认是两个像素</li>
+<li><code>command</code>:更改数值时，执行的方法</li>
+<li><code>cursor</code>:鼠标移至尺度条上时的形状</li>
+<li><code>digits</code>:尺度数值，使用 IntVar,DoubleVar,StringVar 变量类型读取</li>
+<li><code>fg</code>:文字前景色</li>
+<li><code>font</code>: 字形</li>
+<li><code>from_</code>:范围值初值</li>
+<li><code>highlightbackground</code>:取得焦点是背景颜色</li>
+<li><code>highlightcolor</code>:取得焦点时颜色</li>
+<li><code>label</code>:</li>
+<li><code>length</code>:</li>
+<li><code>orient</code>:</li>
+<li><code>relief</code>:</li>
+<li><code>repeatdelay</code>:设置按住尺度条多久后可以拖动，默认 300ms</li>
+<li><code>resolution</code>:每次更改的数值</li>
+<li><code>showvalue</code>:显示尺度条目前值，设为 0 不显示</li>
+<li><code>state</code>:</li>
+<li><code>takefocus</code>:正常是可循环取得焦点，设为 0 无法取得焦点</li>
+<li><code>tickinterval</code>:标记刻度</li>
+<li><code>to</code>:末端值</li>
+<li><code>troughcolor</code>:槽(trough)的颜色</li>
+<li><code>variable</code>:设置或取得目前选取的尺度值</li>
+<li><code>width</code>:宽度或高度<br />
+<img src="/images/tkinter/scale.png" alt="Scale" /></li>
+</ul>
+<p><code>askcolor()</code>方法<br />
+<img src="/images/tkinter/askcolor.png" alt="AskColor" /></p>
+<h4 id="spinbox另一种输入控件"><a class="markdownIt-Anchor" href="#spinbox另一种输入控件"></a> Spinbox(另一种输入控件)</h4>
+<p>Entry 和 Button 的结合</p>
+<p><code>Spinbox(master, options,...)</code><br />
+<code>options</code></p>
+<ul>
+<li><code>activebackground</code>:鼠标在尺度条上时的背景色彩</li>
+<li><code>bg 或 background</code>:背景色彩</li>
+<li><code>borderwidth 或 bd</code>:3D 边界宽度默认是两个像素</li>
+<li><code>command</code>:更改选项时，执行的方法</li>
+<li><code>cursor</code>:鼠标移至控件上时的形状</li>
+<li><code>disabledforeground</code>:无法操作时的颜色</li>
+<li><code>disabledbackground</code>:无法操作时的颜色</li>
+<li><code>fg</code>:文字前景色</li>
+<li><code>font</code>: 字形</li>
+<li><code>format</code>:格式化的字符串</li>
+<li><code>from_</code>:范围值初值</li>
+<li><code>increment</code>:每次单击 up/down 变化值</li>
+<li><code>justify</code>:</li>
+<li><code>relief</code>:</li>
+<li><code>repeatdelay</code>:设置单击 up/down 变化间隔，默认 300ms</li>
+<li><code>state</code>:</li>
+<li><code>textvariable</code>:</li>
+<li><code>values</code>:元组或其它序列值</li>
+<li><code>to</code>:末端值</li>
+<li><code>width</code>:宽度或高度</li>
+<li><code>wrap</code>:单击 up/down 可以让数值重新开始</li>
+<li><code>xscrollcommand</code>:x 轴的滚动条</li>
+</ul>
+<p><code>方法</code></p>
+<ul>
+<li><code>get()</code>:</li>
+</ul>
+<p><img src="/images/tkinter/spinbox.png" alt="Spinbox" /></p>
+<h4 id="message"><a class="markdownIt-Anchor" href="#message"></a> Message</h4>
+<p><code>Message(父对象, options, ...)</code><br />
+<code>常用options参数</code></p>
+<ul>
+<li><code>anchor</code>: 空间大于所需时，消息位置，默认 CENTER</li>
+<li><code>aspect</code>: 宽度与高度比，默认 150%</li>
+<li><code>bg 或 background</code>:</li>
+<li><code>bitmap</code>: 不与 image 参数共存，如果两者都有设置，bitmap 将不起作用</li>
+<li><code>borderwidth 或 bd</code></li>
+<li><code>cursor</code>:</li>
+<li><code>fg 或 foreground</code>:</li>
+<li><code>font</code>:</li>
+<li><code>height</code>:</li>
+<li><code>image</code>:</li>
+<li><code>justify</code>: 多行时设置最后一行对齐方式，left/center/right</li>
+<li><code>padx/pady</code>:设置标签文字边界与标签区间的间距</li>
+<li><code>relief</code>:</li>
+<li><code>text</code>:</li>
+<li><code>textvariable</code>:</li>
+<li><code>underline</code>:</li>
+<li><code>width</code>:</li>
+<li><code>wraplength</code>: 设置标签中文字在多少宽度后换行</li>
+</ul>
+<h4 id="messagebox消息对话框"><a class="markdownIt-Anchor" href="#messagebox消息对话框"></a> Messagebox(消息对话框)</h4>
+<ul>
+<li><code>showinfo(title, message, options)</code></li>
+<li><code>showwarning(title, message, options)</code></li>
+<li><code>showerror(title, message, options)</code></li>
+<li><code>askquestion(title, message, options)</code></li>
+<li><code>askokcancel(title, message, options)</code></li>
+<li><code>askyesno(title, message, options)</code></li>
+<li><code>askyesnocancel(title, message, options)</code></li>
+<li><code>askretrycancel(title, message, options)</code></li>
+</ul>
+<p><code>options参数</code></p>
+<ul>
+<li><code>default constant</code>: 默认按钮是 OK/YES/Retry 在前面，也可更改此设定</li>
+<li><code>icon(constant)</code>:设定显示图标，INFO/ERROR/QUESTION/WARNING</li>
+<li><code>parent(widget)</code>:对话框关闭时，焦点窗口将返回此父窗口</li>
+</ul>
+<h4 id="listbox列表框"><a class="markdownIt-Anchor" href="#listbox列表框"></a> Listbox(列表框)</h4>
+<p><code>Listbox(master, options,...)</code><br />
+<code>options</code></p>
+<ul>
+<li><code>bg 或 background</code>:背景色彩</li>
+<li><code>borderwidth 或 bd</code>:边界宽度默认是两个像素</li>
+<li><code>cursor</code>:鼠标移至按钮上时的形状</li>
+<li><code>fg 或 foreground</code>:</li>
+<li><code>font</code>:</li>
+<li><code>height</code>:高，单位是字符高</li>
+<li><code>highlightcolor</code>:取得焦点时颜色</li>
+<li><code>highlightthickness</code>:取得焦点时的厚度</li>
+<li><code>listvariable</code>:以变量方式处理选项内容</li>
+<li><code>relief</code>:默认是 relief=FLAT,控制外框</li>
+<li><code>selectbackground</code>:</li>
+<li><code>selectmode</code>:决定多少可选和鼠标拖拽如何影响选项
+<ul>
+<li><code>BROWSE</code>:默认值</li>
+<li><code>SINGLE</code>:</li>
+<li><code>MULTIPLE</code>:</li>
+<li><code>EXTENDED</code>:</li>
+</ul>
+</li>
+<li><code>width</code>:宽，单位是像素</li>
+<li><code>xscrollcommand</code>:</li>
+<li><code>blog/imagesllcommand</code>:</li>
+</ul>
+<p><code>方法</code></p>
+<ul>
+<li><code>insert(index, elements)</code>:为列表框建立项目</li>
+<li><code>size()</code>: 传回列表项目数量</li>
+<li><code>selection_set(index)</code>: 选取特定索引项</li>
+<li><code>delete(indexStart, indexEnd=None)</code>:删除特定索引项</li>
+<li><code>get(start,end=None)</code>:传回指定索引项</li>
+<li><code>curselection()</code>:传回选取项目的索引</li>
+<li><code>selection_include(index)</code>:检查指定索引是否被选中</li>
+</ul>
+<p><code>事件</code><br />
+&lt;&lt;ListboxSelect&gt;&gt;:虚拟事件，执行选取操作时触发</p>
+<h4 id="scrollbar滚动条"><a class="markdownIt-Anchor" href="#scrollbar滚动条"></a> Scrollbar(滚动条)</h4>
+<p><code>Scrollbar(master, options,...)</code><br />
+<code>options</code></p>
+<ul>
+<li><code>activebackground</code>:鼠标在尺度条上时的背景色彩</li>
+<li><code>bg 或 background</code>:背景色彩</li>
+<li><code>borderwidth 或 bd</code>:边界宽度默认是两个像素</li>
+<li><code>command</code>:更改数值时，执行的方法</li>
+<li><code>cursor</code>:鼠标移至尺度条上时的形状</li>
+<li><code>elementborderwidth</code>:滚动条和方向箭头的外部宽度，默认是 1</li>
+<li><code>highlightbackground</code>:取得焦点是背景颜色</li>
+<li><code>highlightcolor</code>:取得焦点时颜色</li>
+<li><code>highlightthickness</code>:获得焦点时的厚度</li>
+<li><code>jump</code>:默认是 0，每次拖拽都触发事件，设为 1 时，方形鼠标按键时才触发事件</li>
+<li><code>orient</code>:</li>
+<li><code>repeatdelay</code>:设置按住尺度条多久后可以拖动，默认 300ms</li>
+<li><code>takefocus</code>:可以按 Tab 切换滚动条成为焦点，设 0 取消此设置</li>
+<li><code>troughcolor</code>:槽(trough)的颜色</li>
+<li><code>variable</code>:设置或取得目前选取的尺度值</li>
+<li><code>width</code>:宽度,默认 16 像素</li>
+</ul>
+<p><img src="/images/tkinter/scroll.png" alt="Scroll" /></p>
+<h4 id="optionmenu下拉式列表"><a class="markdownIt-Anchor" href="#optionmenu下拉式列表"></a> OptionMenu(下拉式列表)</h4>
+<p><code>OptionMenu(master, options,*value)</code><br />
+*value 时一系列下拉列表</p>
+<p><img src="/images/tkinter/optionmenu.png" alt="OptionMenu" /></p>
+<h4 id="combobox组合框"><a class="markdownIt-Anchor" href="#combobox组合框"></a> Combobox(组合框)</h4>
+<p><code>Combobox(master, options)</code></p>
+<p><code>options参数</code></p>
+<ul>
+<li><code>textvariable</code>:设置变量值</li>
+<li><code>value</code>:选项内容，以元组方式存在</li>
+</ul>
+<p><img src="/images/tkinter/combobox.png" alt="Combobox" /></p>
+<h4 id="panedwindow面板"><a class="markdownIt-Anchor" href="#panedwindow面板"></a> PanedWindow(面板)</h4>
+<p><code>PanedWindow(master, options,...)</code><br />
+<code>options</code></p>
+<ul>
+<li><code>bg 或 background</code>:鼠标不在控件时，若有滚动条或方向盒时，滚动条或方向盒的背景色彩</li>
+<li><code>bd</code>: 3D 显示时的宽度，默认是 2</li>
+<li><code>borderwidth</code>:边界线宽度默认是两个像素</li>
+<li><code>cursor</code>:鼠标移至控件上时的形状</li>
+<li><code>handlepad</code>: 面板显示宽度,默认是 8</li>
+<li><code>handlesize</code>: 面板显示大小, 默认是 8</li>
+<li><code>height</code>: 没有默认高度</li>
+<li><code>orient</code>: 面板方向默认是 HORIZONTAL</li>
+<li><code>relief</code>: 默认 FLAT</li>
+<li><code>sashcursor</code>: 分隔线光标, 没有默认值</li>
+<li><code>sashrelief</code>: 面板分隔线外框，默认 RAISED</li>
+<li><code>showhandle</code>:滑块属性，可设定为是否显示，没有默认值</li>
+<li><code>width</code>:整体宽度，没有默认值</li>
+</ul>
+<p><code>方法</code></p>
+<ul>
+<li><code>add(widget, options)</code>: 插入子控件
+<ul>
+<li>options 中 widget 控制缩放时子控件占比</li>
+</ul>
+</li>
+</ul>
+<h4 id="notebook选项卡"><a class="markdownIt-Anchor" href="#notebook选项卡"></a> Notebook(选项卡)</h4>
+<p><code>Notebook(master, optins, ...)</code><br />
+<code>options</code></p>
+<ul>
+<li><code>height</code>:默认使用最大可能高度</li>
+<li><code>padding</code>: 设置外围的额外空间，可以设置 4 个值，代表 left/top/right/bottom 四周的空间</li>
+<li><code>width</code>: 默认使用最大可能宽度</li>
+</ul>
+<p><code>方法</code></p>
+<ul>
+<li><code>add(widget, options)</code>:添加子对象
+<ul>
+<li><code>options</code></li>
+<li><code>compound</code>:同时有图像和文字时，两者的关系</li>
+<li><code>image</code>:以图像方式呈现</li>
+<li><code>padding</code>: 设置额外空间</li>
+<li><code>state</code>:可设：normal/disabled,hidden</li>
+<li><code>sticky</code>: 子窗口面板的配置方式，nsew</li>
+<li><code>text</code>: 选项卡中字符串内容</li>
+<li><code>underline</code>: 指出第几个字母含下划线</li>
+</ul>
+</li>
+</ul>
+<h4 id="progressbar进度条"><a class="markdownIt-Anchor" href="#progressbar进度条"></a> Progressbar(进度条)</h4>
+<p><code>Progerssbar(master, options,...)</code><br />
+<code>options</code>:</p>
+<ul>
+<li><code>length</code>: 长度，默认 100 像素</li>
+<li><code>mode</code>:模式
+<ul>
+<li><code>determinate</code>: 从起点到终点</li>
+<li><code>indeterminate</code>: 在起点和终点间来回移动</li>
+</ul>
+</li>
+<li><code>maximum</code>:最大值，默认 100</li>
+<li><code>name</code>:名称，供参考引用</li>
+<li><code>orient</code>:方向，HORIZONTAL/VERTICAL</li>
+<li><code>value</code>: 目前值</li>
+<li><code>variable</code>:记录目前进度值</li>
+</ul>
+<p><code>动画</code><br />
+在每次更新进度 value 值时调用 update()方法</p>
+<p><code>方法</code></p>
+<ul>
+<li><code>start(interval)</code>:每隔 interval 时间移动一次指针。默认 50ms</li>
+<li><code>step(delta)</code>:每次增加一次 delta,默认是 1.0</li>
+<li><code>stop()</code>:停止 start()的运行</li>
+</ul>
+<h4 id="menu菜单"><a class="markdownIt-Anchor" href="#menu菜单"></a> Menu(菜单)</h4>
+<p><code>Menu(master, options)</code><br />
+<code>options</code>:</p>
+<ul>
+<li><code>activebackground</code>:鼠标在选项按钮上时的背景色彩</li>
+<li><code>activeborderwidth</code>:鼠标在选项按钮上时的外边框宽度</li>
+<li><code>activeforeground</code>:鼠标在选项按钮上时的前景色彩</li>
+<li><code>bd</code>:所有菜单的外边框宽度</li>
+<li><code>bg 或 background</code>:未被选取时的背景色彩</li>
+<li><code>cursor</code>:鼠标移至按钮上时的形状</li>
+<li><code>disabledforeground</code>: disabled 时的前景色彩</li>
+<li><code>font</code>: 字形</li>
+<li><code>fg</code>:未被选取时的前景色彩</li>
+<li><code>image</code>:按钮上的图像</li>
+<li><code>tearoff</code>:菜单上方的分隔线</li>
+</ul>
+<p><code>方法</code></p>
+<ul>
+<li><code>add_cascade()</code>:建立分层菜单</li>
+<li><code>add_command()</code>:增加菜单列表
+<ul>
+<li><code>undeline</code>:为字母增加下划线，按 Alt+下划线字母启用快捷功能</li>
+<li><code>accelerator</code>:ctrl 快捷键，accelerator=‘Ctrl+N’</li>
+</ul>
+</li>
+<li><code>add_separator()</code>:增加菜单列表的分隔线</li>
+</ul>
+<p><code>弹出式菜单</code><br />
+<img src="/images/tkinter/popupmenu.png" alt="PopupMenu" /></p>
+<p><code>add_checkbutton()</code>:<br />
+<img src="/images/tkinter/menu_checkbutton.png" alt="MenuCheckButton" /></p>
+<h4 id="toolbar工具栏"><a class="markdownIt-Anchor" href="#toolbar工具栏"></a> Toolbar(工具栏)</h4>
+<p><img src="/images/tkinter/toolbar.png" alt="Toolbar" /></p>
+<h4 id="text列表框"><a class="markdownIt-Anchor" href="#text列表框"></a> Text(列表框)</h4>
+<p><code>Text(master, options,...)</code><br />
+<code>options</code></p>
+<ul>
+<li><code>bg 或 background</code>:背景色彩</li>
+<li><code>borderwidth 或 bd</code>:边界宽度默认是两个像素</li>
+<li><code>cursor</code>:鼠标移至按钮上时的形状</li>
+<li><code>exportselection</code>:</li>
+<li><code>fg 或 foreground</code>:</li>
+<li><code>font</code>:</li>
+<li><code>height</code>:高，单位是字符高</li>
+<li><code>highlightbackground</code>:取得焦点时背景颜色</li>
+<li><code>highlightcolor</code>:取得焦点时颜色</li>
+<li><code>highlightthickness</code>:取得焦点时的厚度</li>
+<li><code>insertbackground</code>:插入光标的颜色</li>
+<li><code>insertborderwidth</code>: 围绕游标的 3D 厚度，默认是 0</li>
+<li><code>padx</code>:</li>
+<li><code>pady</code>:</li>
+<li><code>relief</code>:默认是 relief=FLAT,控制外框</li>
+<li><code>selectbackground</code>:</li>
+<li><code>selectborderwidth</code>:</li>
+<li><code>selectforeground</code>:</li>
+<li><code>state</code>:</li>
+<li><code>width</code>:宽，单位是字符宽</li>
+<li><code>wrap</code>:控制某行文字太长时的处理,默认是 wrap=CHAR,从字符断行；warp=WORD 时，从字做断行</li>
+<li><code>xscrollcommand</code>:</li>
+<li><code>blog/imagesllcommand</code>:</li>
+</ul>
+<p><code>方法</code></p>
+<ul>
+<li><code>insert(index, string)</code>:将字符串插入指定的索引位置</li>
+<li><code>get()</code>: 取得目前所选文字,选取文字时，Text 对象将所选文字起始位置放在 SEL_FIRST,结束索引放在 SEL_LAST;
+<ul>
+<li>索引形式：</li>
+<li><code>line/column(&quot;line.column&quot;)</code></li>
+<li><code>INSERT</code></li>
+<li><code>CURRENT</code>:</li>
+<li><code>END</code>:</li>
+<li><code>表达式Expression</code>:索引表达式，说明如下
+<ul>
+<li><code>+count chars</code>,如“+2c”索引往后移动两个字符</li>
+<li><code>-count chars</code>,如“-2c”索引往前移动两个字符</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><code>书签</code>：特殊位置建立书签，方便查询</p>
+<ul>
+<li><code>index(mark)</code>:传回指定书签的 line 和 column</li>
+<li><code>mark_names()</code>:传回这个 Text 对象所有的书签、</li>
+<li><code>mark_set(mark, index)</code>:在指定的 index 位置设置书签</li>
+<li>`mark_unset(mark):取消指定书签设置</li>
+</ul>
+<p><code>标签</code>：指一个区域文字，为这个区域取的名字</p>
+<ul>
+<li><code>tag_add(tagname, startindex[,endindex]...)</code></li>
+<li><code>tag_config(tagname, options,...)</code>:
+<ul>
+<li>options:</li>
+<li><code>background</code>:</li>
+<li><code>borderwidth</code>:</li>
+<li><code>font</code>:</li>
+<li><code>foreground</code>:</li>
+<li><code>justify</code>:</li>
+<li><code>overstrike</code>:</li>
+<li><code>underline</code>:</li>
+<li><code>wrap</code>:</li>
+</ul>
+</li>
+<li><code>tag_delete(tagname)</code>:删除标签，同时移除此标签特殊的编辑或绑定</li>
+<li><code>tag_remove(tagname[,startindex[,endindex]]...)</code>:删除标签，不移除此标签特殊的编辑或绑定</li>
+</ul>
+<p><code>cut/copy/paste</code><br />
+<img src="/images/tkinter/text_copy.png" alt="cut/copy/paste" /><br />
+<img src="/images/tkinter/text_copy_n.png" alt="内建cut/copy/paste" /></p>
+<p><code>重复与复原</code><br />
+<img src="/images/tkinter/undo.png" alt="重复与复原" /></p>
+<p><code>查找文字</code><br />
+<code>pos=text.search(key, startindex, endindex)</code>:<br />
+<img src="/images/tkinter/text_search.png" alt="查找文字" /></p>
+<ul>
+<li><code>pos</code>: 找到的字符传索引位置</li>
+<li><code>key</code>: 字符传</li>
+<li><code>startindex</code>: 查找起始位置</li>
+<li><code>endindex</code>: 查找结束位置</li>
+</ul>
+<p><code>拼写检查</code><br />
+<img src="/images/tkinter/pxjc.png" alt="拼写检查" /></p>
+<p><code>保存</code><br />
+<img src="/images/tkinter/text_save.png" alt="保存" /><br />
+<img src="/images/tkinter/text_save_as.png" alt="另在为" /></p>
+<p><code>新建文档</code><br />
+<img src="/images/tkinter/text_new_file.png" alt="新建文档" /></p>
+<p><code>打开文档</code><br />
+<img src="/images/tkinter/text_open_file.png" alt="打开文档" /></p>
+<p><code>ScrolledText</code>:默认含滚动条</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">text = ScrolledText(root, undo=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure>
+<p><code>插入图像</code><br />
+<img src="/images/tkinter/text_insert_image.png" alt="插入图像" /></p>
+<p><code>其它</code></p>
+<ul>
+<li>若要 x 轴显示滚动条，wrap 需设置为 none</li>
+</ul>
+<h4 id="treeview树状表格数据"><a class="markdownIt-Anchor" href="#treeview树状表格数据"></a> Treeview(树状表格数据)</h4>
+<p><code>Treeview(master, options,...)</code><br />
+<code>options</code>:</p>
+<ul>
+<li><code>columns</code>:栏位字符串</li>
+<li><code>cursor</code>:</li>
+<li><code>displaycolumns</code>: 可设置栏位显示顺序</li>
+<li><code>height</code>:</li>
+<li><code>padding</code>:</li>
+<li><code>selectmode</code>:
+<ul>
+<li><code>BROWSE</code>:</li>
+<li><code>EXTENDED</code>:</li>
+<li><code>NONE</code>:</li>
+</ul>
+</li>
+<li><code>show</code>:</li>
+<li><code>takefocus</code>: tree/heading</li>
+</ul>
+<p><code>格式化栏位内容</code><br />
+<code>column(id, options)</code></p>
+<ul>
+<li><code>anchor</code>:</li>
+<li><code>minwidth</code>:</li>
+<li><code>stretch</code>:</li>
+<li><code>width</code>:</li>
+</ul>
+<p><code>建立不同颜色行内容</code><br />
+<code>tag_configure(&quot;tagname&quot;,options,...)</code></p>
+<ul>
+<li><code>background</code>:</li>
+<li><code>font</code>:</li>
+<li><code>foreground</code>:</li>
+<li><code>image</code>:</li>
+</ul>
+<p><code>建立层级Treeview</code><br />
+<img src="/images/tkinter/tree_level.png" alt="建立层级Treeview" /></p>
+<p><code>图像</code><br />
+insert()方法增加 image 参数<br />
+可能需增加行高：<br />
+<code>Style().configure(&quot;Treeview&quot;,rowheight=xx)</code></p>
+<p><code>Selection事件</code><br />
+<img src="/images/tkinter/tree_select.png" alt="Selection事件" /></p>
+<p><code>删除项目</code><br />
+<img src="/images/tkinter/tree_delete.png" alt="删除项目" /></p>
+<p><code>添加项目</code><br />
+<img src="/images/tkinter/tree_add.png" alt="添加项目" /></p>
+<p><code>双击项目</code><br />
+<img src="/images/tkinter/tree_double.png" alt="双击项目" /></p>
+<p><code>Scroll</code><br />
+<img src="/images/tkinter/tree_scroll.png" alt="Scroll" /></p>
+<p><code>排序</code><br />
+<img src="/images/tkinter/tree_sort.png" alt="排序" /></p>
+<h4 id="canvas画布"><a class="markdownIt-Anchor" href="#canvas画布"></a> Canvas(画布)</h4>
+<p><code>canvas=Canvas(tk,width=xx,height=xx)</code></p>
+<p><code>绘制线条</code><br />
+<code>create_line(x1,y1,x2,y2,...,xn,yn,options)</code></p>
+<ul>
+<li>options</li>
+<li>arrow: tk.FIRST/tk.LAST/tk.BOTH</li>
+<li>arrowshape:元组（d1,d2,d3）</li>
+<li>capstyle:BUTT/PROJECTING/ROUND</li>
+<li>dash:</li>
+<li>dashoffset</li>
+<li>fill</li>
+<li>joinstyle:ROUND/BEVEL/MITER</li>
+<li>stripple</li>
+<li>width</li>
+</ul>
+<p><code>绘制矩形</code><br />
+<code>create_rectangle(x1,y1,x2,y2,options)</code></p>
+<ul>
+<li>options</li>
+<li>dash</li>
+<li>dashoffset</li>
+<li>fill</li>
+<li>outline</li>
+<li>stripple</li>
+<li>width</li>
+</ul>
+<p><code>绘制圆弧</code><br />
+<code>create_arc(x1,y1,x2,y2,extend=angle, style=ARC,options)</code></p>
+<ul>
+<li>options</li>
+<li>dash</li>
+<li>dashoffset</li>
+<li>extent</li>
+<li>fill</li>
+<li>outline</li>
+<li>start</li>
+<li>stripple</li>
+<li>style</li>
+<li>width</li>
+</ul>
+<p><code>绘制圆或椭圆</code><br />
+<code>create_oval(x1,y1,x2,y2,options)</code></p>
+<ul>
+<li>options</li>
+<li>dash</li>
+<li>dashoffset</li>
+<li>fill</li>
+<li>outline</li>
+<li>stripple</li>
+<li>width</li>
+</ul>
+<p><code>绘制多边形</code><br />
+<code>create_polygon(x1,y1,x2,y2,...,xn,yn,options)</code></p>
+<ul>
+<li>options</li>
+<li>dash:</li>
+<li>dashoffset</li>
+<li>fill</li>
+<li>outline</li>
+<li>stripple</li>
+<li>width</li>
+</ul>
+<p><code>输出文字</code><br />
+<code>create_text(x,y,text='',options)</code></p>
+<ul>
+<li>anchor</li>
+<li>fill</li>
+<li>font</li>
+<li>justify</li>
+<li>stipple</li>
+<li>text</li>
+<li>width</li>
+</ul>
+<p><code>更改画布背景颜色</code><br />
+建立画布时，增加 bg 参数设置画布背景颜色</p>
+<p><code>插入图像</code><br />
+<code>create_image(x,y,options)</code></p>
+<ul>
+<li>options</li>
+<li>anchor</li>
+<li>image</li>
+</ul>
+<p><code>鼠标拖拽绘制线条</code><br />
+<img src="/images/tkinter/canvas_mouse.png" alt="排序" /></p>
+<p><code>基本动画</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">canvas.move(ID, xMove, yMove)</span><br><span class="line">canvas.update()</span><br></pre></td></tr></table></figure>
+<p><code>多个球移动</code><br />
+<img src="/images/tkinter/canvas_move.png" alt="多个球移动" /></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 增加随机数</span></span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="number">100</span>):</span><br><span class="line">  <span class="keyword">if</span> randint(<span class="number">1</span>, <span class="number">100</span>) &gt; <span class="number">70</span>:</span><br><span class="line">    canvas.move(id2, <span class="number">5</span>, <span class="number">0</span>)</span><br><span class="line">  <span class="keyword">else</span>:</span><br><span class="line">    canvas.move(id1, <span class="number">5</span>, <span class="number">0</span>)</span><br><span class="line">  tk.update()</span><br><span class="line">  time.sleep(<span class="number">0.05</span>)</span><br></pre></td></tr></table></figure>
+<p><code>消息绑定</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">ballMove</span>(<span class="params">event</span>):</span></span><br><span class="line">  canvas.move(<span class="number">1</span>, <span class="number">5</span>, <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">ballMove</span>(<span class="params">event</span>):</span></span><br><span class="line">  <span class="keyword">if</span> event.keysym == <span class="string">&#x27;Right&#x27;</span>:</span><br><span class="line">    canvas.move(<span class="number">1</span>, <span class="number">5</span>, <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">canvas.bind_all(<span class="string">&#x27;&lt;KeyPress-Left&gt;&#x27;</span>, ballMove)</span><br><span class="line">canvas.bind_all(<span class="string">&#x27;&lt;KeyPress-Right&gt;&#x27;</span>, ballMove)</span><br><span class="line">canvas.bind_all(<span class="string">&#x27;&lt;KeyPress-Up&gt;&#x27;</span>, ballMove)</span><br><span class="line">canvas.bind_all(<span class="string">&#x27;&lt;KeyPress-Down&gt;&#x27;</span>, ballMove)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p><code>反弹球</code><br />
+<code>向下移动</code><br />
+<img src="/images/tkinter/canvas_ball_down.png" alt="向下移动" /></p>
+<p><code>位置信息</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">ballPos = canvas.coords(<span class="built_in">id</span>)</span><br><span class="line"></span><br><span class="line">ballPos[<span class="number">0</span>] 左x坐标</span><br><span class="line">ballPos[<span class="number">1</span>] 上y坐标</span><br><span class="line">ballPos[<span class="number">2</span>] 右x坐标</span><br><span class="line">ballPos[<span class="number">3</span>] 下y坐标</span><br></pre></td></tr></table></figure>
+<p><code>上下反弹</code><br />
+<img src="/images/tkinter/canvas_ball_up.png" alt="上下反弹" /></p>
+<p><code>四面反弹</code><br />
+<img src="/images/tkinter/canvas_ball_four.png" alt="四面反弹" /></p>
+<p><code>球拍</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">id</span> = canvas.create_rectangle(<span class="number">0</span>,<span class="number">0</span>,<span class="number">100</span>,<span class="number">15</span>,fill=color)</span><br><span class="line">canvas.move(<span class="built_in">id</span>,<span class="number">270</span>,<span class="number">400</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 移动</span></span><br><span class="line">canvas.bind_all(<span class="string">&#x27;&lt;KeyPress-Right&gt;&#x27;</span>, moveRight)</span><br><span class="line">canvas.bind_all(<span class="string">&#x27;&lt;KeyPress-Left&gt;&#x27;</span>, moveLeft)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">moveLeft</span>(<span class="params">self, event</span>):</span></span><br><span class="line">  self.x = -<span class="number">3</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">moveRight</span>(<span class="params">self, event</span>):</span></span><br><span class="line">  self.x = <span class="number">3</span></span><br></pre></td></tr></table></figure>
+<p><img src="/images/tkinter/canvas_ball_pai.png" alt="球拍" /></p>
+<p><code>碰撞</code><br />
+<img src="/images/tkinter/canvas_ball_peng.png" alt="碰撞" /></p>
+<p><code>完整</code><br />
+<img src="/images/tkinter/canvas_ball_full1.png" alt="完整1" /><br />
+<img src="/images/tkinter/canvas_ball_full2.png" alt="完整2" /></p>
+<h3 id="photoimage图像"><a class="markdownIt-Anchor" href="#photoimage图像"></a> PhotoImage(图像)</h3>
+<p><code>支持gif和png格式</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">imgObj = PhotoImage(file=<span class="string">&quot;xxx.gif&quot;</span>)</span><br><span class="line">label = Label(root, image=imgObj)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 兼容</span></span><br><span class="line"><span class="comment"># pip install pillow</span></span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image, ImageTk</span><br><span class="line">img = Image.<span class="built_in">open</span>(<span class="string">&#x27;xxx.jpg&#x27;</span>)</span><br><span class="line">imgObj = ImageTk.PhotoImage(image)</span><br><span class="line">label = Label(root, image=imgObj)</span><br></pre></td></tr></table></figure>
+<h3 id="separator分隔线"><a class="markdownIt-Anchor" href="#separator分隔线"></a> Separator(分隔线)</h3>
+<p><code>Separator(master, options)</code></p>
+<ul>
+<li><code>orient</code>: HORIZONTAL 水平分隔线；VERTICAL 垂直分隔线</li>
+</ul>
+<h3 id="wodget-layout-manager窗口控件配置管理员"><a class="markdownIt-Anchor" href="#wodget-layout-manager窗口控件配置管理员"></a> Wodget Layout Manager(窗口控件配置管理员)</h3>
+<h4 id="pack-方法"><a class="markdownIt-Anchor" href="#pack-方法"></a> pack 方法</h4>
+<p><code>pack(options, ...)</code><br />
+<code>options参数</code></p>
+<ul>
+<li><code>side</code>:垂直或水平配置控件
+<ul>
+<li><code>TOP</code>:由上而下</li>
+<li><code>BOTTOM</code>:由下而上</li>
+<li><code>LEFT</code>:由左而右</li>
+<li><code>RIGHT</code>:由右而左</li>
+</ul>
+</li>
+<li><code>fill</code>: 设置填满所分配容器区间的方式
+<ul>
+<li><code>fill=X</code>: X 轴不留白</li>
+<li><code>fill=Y</code>: Y 轴不留白</li>
+<li><code>fill=BOTH</code>:X 轴 Y 轴均不留白</li>
+<li><code>fill=None</code>:保持原有大小</li>
+</ul>
+</li>
+<li><code>padx/pady</code>:控件边界与容器距离或控件边界间的距离</li>
+<li><code>ipadx/ipady</code>: 标签文字与标签容器间距</li>
+<li><code>anchor</code>:控件在窗口中的位置，指控件内容在控件区域的位置</li>
+<li><code>expand</code>:控件是否填满额外的父容器空间，False 或 True</li>
+</ul>
+<p><code>方法</code></p>
+<ul>
+<li><code>slaves()</code>: 所有控件对象</li>
+<li><code>info()</code>:pack 选项对应的值</li>
+<li><code>forget()</code>:隐藏控件，可用 pack(options, …)复原显示</li>
+<li><code>location(x, y)</code>:传回此点是否在单元格，如果是传回坐标，如果不是传回(-1,-1)</li>
+<li><code>size()</code>: 控件大小</li>
+<li><code>propagate(boolean)</code>:True 表示父窗口大小由子控件决定</li>
+</ul>
+<h4 id="grid-方法"><a class="markdownIt-Anchor" href="#grid-方法"></a> grid 方法</h4>
+<p><code>gird(options, ...)</code><br />
+<code>options参数</code></p>
+<ul>
+<li><code>row</code>:</li>
+<li><code>column</code>:</li>
+<li><code>padx/pady</code>:控件边界与容器距离或控件边界间的距离</li>
+<li><code>rowspan</code>: row 方向合并数量</li>
+<li><code>columnspan</code>: column 方向合并数量</li>
+<li><code>sticky</code>: 类似 anchor，可配置 N/S/W/E；组合之后可拉长拉宽控件</li>
+</ul>
+<p><code>方法</code></p>
+<ul>
+<li><code>rowconfigure()/columnconfigure()</code>:设定第几个 row 或 column 的绽放比例</li>
+</ul>
+<h4 id="place-方法"><a class="markdownIt-Anchor" href="#place-方法"></a> place 方法</h4>
+<p><code>place(options, ...)</code><br />
+<code>options参数</code></p>
+<ul>
+<li><code>height/width</code>:设定控件的实体大小</li>
+<li><code>relx/rexy</code>:相对于父容器的位置</li>
+<li><code>x/y</code>:设置左上方位置</li>
+<li><code>relheight/relwidth</code>:相对大小；0.0~1.0</li>
+<li><code>bordermode</code>:</li>
+<li><code>anchor</code>:</li>
+</ul>
+<h3 id="variable-classes变量类别"><a class="markdownIt-Anchor" href="#variable-classes变量类别"></a> Variable Classes(变量类别)</h3>
+<p>更改控件内容可使用控件参数，如 textvariable/variable/onvalue 等</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">x = IntVar()</span><br><span class="line">x = DoubleVar()</span><br><span class="line">x = StringVar()</span><br><span class="line">x = BooleanVar()</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">callbackW</span>(<span class="params">*args</span>):</span></span><br><span class="line">  <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line">x.trace(<span class="string">&#x27;w&#x27;</span>, callbackW)</span><br></pre></td></tr></table></figure>
+<ul>
+<li><code>get()</code>:取得变量内容</li>
+<li><code>set()</code>:设置变量内容</li>
+<li><code>trace(mode, callback)</code>:x.trace(‘r’, callback),r 表示执行读取时执行隐函数，w 表示修改时执行隐函数
+<ul>
+<li>callback(name, index, mode)参数：name,tk 变量名称；index 索引；mode 模式</li>
+</ul>
+</li>
+</ul>
+<h3 id="事件绑定"><a class="markdownIt-Anchor" href="#事件绑定"></a> 事件绑定</h3>
+<p>Event 对象属性：</p>
+<ul>
+<li>type 事件类型</li>
+<li>char 键盘事件 ascii 码</li>
+<li>keycode 键盘事件 键盘代码</li>
+<li>delta 鼠标滚动事件 滚轮滚动的距离</li>
+</ul>
+<p><code>widget.bind(event, handler)</code>: 绑定事件，可绑定多个事件处理程序，新增加事件处理中在 bind 方法中增加 add=’+‘参数<br />
+`obj.unbind(’&lt;xxx&gt;’): 解除绑定，xxx 为绑定方式</p>
+<p>事件类型</p>
+<table>
+<thead>
+<tr>
+<th>鼠标事件</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt;Button-1&gt;</td>
+<td>左键单击</td>
+</tr>
+<tr>
+<td>&lt;Button-2&gt;</td>
+<td>中键单击</td>
+</tr>
+<tr>
+<td>&lt;Button-3&gt;</td>
+<td>右键单击</td>
+</tr>
+<tr>
+<td>&lt;Button-4&gt;</td>
+<td>滑轮上滚</td>
+</tr>
+<tr>
+<td>&lt;Button-5&gt;</td>
+<td>滑轮下滚</td>
+</tr>
+<tr>
+<td>&lt;Motion&gt;</td>
+<td>移动</td>
+</tr>
+<tr>
+<td>&lt;B1-Motion&gt;</td>
+<td>按住左键移动</td>
+</tr>
+<tr>
+<td>&lt;B2-Motion&gt;</td>
+<td>按住中键移动</td>
+</tr>
+<tr>
+<td>&lt;B3-Motion&gt;</td>
+<td>按住右键移动</td>
+</tr>
+<tr>
+<td>&lt;ButtonRelease-1&gt;</td>
+<td>放开左键</td>
+</tr>
+<tr>
+<td>&lt;ButtonRelease-2&gt;</td>
+<td>放开中键</td>
+</tr>
+<tr>
+<td>&lt;ButtonRelease-3&gt;</td>
+<td>放开右键</td>
+</tr>
+<tr>
+<td>&lt;Double-Button-1&gt;</td>
+<td>双击左键</td>
+</tr>
+<tr>
+<td>&lt;Double-Button-2&gt;</td>
+<td>双击中键</td>
+</tr>
+<tr>
+<td>&lt;Double-Button-3&gt;</td>
+<td>双击右键</td>
+</tr>
+<tr>
+<td>&lt;Enter&gt;</td>
+<td>进入 widget</td>
+</tr>
+<tr>
+<td>&lt;Leave&gt;</td>
+<td>离开 widget</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>键盘事件</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt;FocusIn&gt;</td>
+<td>键盘焦点进入控件</td>
+</tr>
+<tr>
+<td>&lt;FocusOut&gt;</td>
+<td>键盘焦点离开控件</td>
+</tr>
+<tr>
+<td>&lt;Return&gt;</td>
+<td>按下 Enter 键，键盘所有键都可以绑定，如：Cancel/BackSpace/Next/Prior/F1~F12/</td>
+</tr>
+<tr>
+<td>&lt;Key&gt;</td>
+<td>某个键</td>
+</tr>
+<tr>
+<td>&lt;Shift-Up&gt;</td>
+<td>Shift+Up</td>
+</tr>
+<tr>
+<td>&lt;Alt-Up&gt;</td>
+<td>Alt+Up</td>
+</tr>
+<tr>
+<td>&lt;Ctrl-Up&gt;</td>
+<td>Ctrl+Up</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>控件事件</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&lt;Configure&gt;</td>
+<td>更改控件的大小和位置</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/images/tkinter/event.png" alt="Event" /></p>
+<h3 id="protocols通信协议"><a class="markdownIt-Anchor" href="#protocols通信协议"></a> Protocols(通信协议)</h3>
+<p>单击内容窗口右上角的关闭按钮的通信协议名称为<code>WM_DELETE_WINDOW</code></p>
+<p><img src="/images/tkinter/protocols.png" alt="Protocols" /></p>
+</div><div id="donate"><link rel="stylesheet" type="text/css" href="/css/donate.css"><script type="text/javascript" src="/js/donate.js" successtext="复制成功!"></script><a class="pos-f tr3" id="github" target="_blank" rel="noopener" href="https://github.com/Kaiyuan/donate-page" arget="_blank" title="Github"></a><div id="DonateText">Donate</div><ul class="list pos-f" id="donateBox"><li id="AliPay" qr="/images/donate/alipayimg.png"></li><li id="WeChat" qr="/images/donate/wechatpayimg.png"></li></ul><div class="pos-f left-100" id="QRBox"><div id="MainBox"></div></div></div><div class="tags"><a href="/tags/%E7%BC%96%E7%A8%8B/"><i class="fa fa-tag"></i>编程</a><a href="/tags/python/"><i class="fa fa-tag"></i>python</a></div><div class="post-nav"><a class="pre" href="/2020-09-30/6b6b0863340c.html">vue 笔记</a><a class="next" href="/2020-08-27/3bcb00bf218e.html">git笔记</a></div><div id="waline"></div><script src="https://cdn.jsdelivr.net/npm/@waline/client"></script><script>Waline({
+  el: '#waline',
+  serverURL: 'https://walinecomments-dxvjch42s-ehoac.vercel.app/',
+  pageSize: '10',
+})
+</script></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><div class="search-form"><input id="local-search-input" placeholder="Search" type="text" name="q" results="0"/><div id="local-search-result"></div></div></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/%E7%BC%96%E7%A8%8B/" style="font-size: 15px;">编程</a> <a href="/tags/java/" style="font-size: 15px;">java</a> <a href="/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" style="font-size: 15px;">操作系统</a> <a href="/tags/linux/" style="font-size: 15px;">linux</a> <a href="/tags/markdown/" style="font-size: 15px;">markdown</a> <a href="/tags/nginx/" style="font-size: 15px;">nginx</a> <a href="/tags/node/" style="font-size: 15px;">node</a> <a href="/tags/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/" style="font-size: 15px;">问题记录</a> <a href="/tags/api/" style="font-size: 15px;">api</a> <a href="/tags/restful/" style="font-size: 15px;">restful</a> <a href="/tags/ubuntu/" style="font-size: 15px;">ubuntu</a> <a href="/tags/c-%E8%AF%AD%E8%A8%80/" style="font-size: 15px;">c 语言</a> <a href="/tags/debian/" style="font-size: 15px;">debian</a> <a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 15px;">笔记</a> <a href="/tags/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/" style="font-size: 15px;">版本控制</a> <a href="/tags/git/" style="font-size: 15px;">git</a> <a href="/tags/html/" style="font-size: 15px;">html</a> <a href="/tags/IDE/" style="font-size: 15px;">IDE</a> <a href="/tags/IDEA/" style="font-size: 15px;">IDEA</a> <a href="/tags/maven/" style="font-size: 15px;">maven</a> <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" style="font-size: 15px;">读书笔记</a> <a href="/tags/%E8%82%A1%E7%A5%A8/" style="font-size: 15px;">股票</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/" style="font-size: 15px;">数据库</a> <a href="/tags/mysql/" style="font-size: 15px;">mysql</a> <a href="/tags/oracle/" style="font-size: 15px;">oracle</a> <a href="/tags/python/" style="font-size: 15px;">python</a> <a href="/tags/%E7%BC%93%E5%AD%98/" style="font-size: 15px;">缓存</a> <a href="/tags/redis/" style="font-size: 15px;">redis</a> <a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 15px;">工具</a> <a href="/tags/vue/" style="font-size: 15px;">vue</a> <a href="/tags/windows/" style="font-size: 15px;">windows</a> <a href="/tags/css/" style="font-size: 15px;">css</a> <a href="/tags/vimplus/" style="font-size: 15px;">vimplus</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2022-02-07/380cec32c67d.html">vscode配置git-bash</a></li><li class="post-list-item"><a class="post-list-link" href="/2021-12-13/a97532ab53a5.html">idea快捷方式记录</a></li><li class="post-list-item"><a class="post-list-link" href="/2021-11-22/9c34b82e9069.html">docker使用记录</a></li><li class="post-list-item"><a class="post-list-link" href="/2021-02-07/08a6ef1c20c2.html">个人数据字典</a></li><li class="post-list-item"><a class="post-list-link" href="/2021-01-15/7bc421094c82.html">Hexo 博客搭建记录</a></li><li class="post-list-item"><a class="post-list-link" href="/2020-11-06/3db09182c976.html">编程基础知识</a></li><li class="post-list-item"><a class="post-list-link" href="/2020-11-04/3c55b4e07fdd.html">windows 使用笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2020-10-24/16a88ee89e09.html">HTML参考</a></li><li class="post-list-item"><a class="post-list-link" href="/2020-09-30/6b6b0863340c.html">vue 笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2020-09-03/125a5f857731.html">tkinter 记录</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.example1.com/" title="site-name1" target="_blank">site-name1</a><ul></ul><a href="http://www.example2.com/" title="site-name2" target="_blank">site-name2</a><ul></ul><a href="http://www.example3.com/" title="site-name3" target="_blank">site-name3</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2023 <a href="/." rel="nofollow">Ehoac の Blog.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css"><link rel="stylesheet" type="text/css" href="/css/search.css?v=1.0.0"><script type="text/javascript" src="/js/search.js?v=1.0.0"></script><script>var search_path = 'search.xml';
+if (search_path.length == 0) {
+   search_path = 'search.xml';
+}
+var path = '/' + search_path;
+searchFunc(path, 'local-search-input', 'local-search-result');
+</script><script type="text/javascript" src="/js/copycode.js" successtext="复制成功!"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
