@@ -1,127 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://blog.ehoac.cn:8000/2022-02-07/380cec32c67d.html</loc>
+    <loc>http://blog.ehoac.cn/2020/02/29/mysql-note/</loc>
+    <lastmod>2023-05-30</lastmod>
+  </url>
+  <url>
+    <loc>http://blog.ehoac.cn/2020/02/29/maven-note/</loc>
+    <lastmod>2023-05-30</lastmod>
+  </url>
+  <url>
+    <loc>http://blog.ehoac.cn/2020/02/18/markdown-grammar-recording/</loc>
+    <lastmod>2023-05-30</lastmod>
+  </url>
+  <url>
+    <loc>http://blog.ehoac.cn/2020/02/24/Java-jdk/</loc>
+    <lastmod>2023-05-30</lastmod>
+  </url>
+  <url>
+    <loc>http://blog.ehoac.cn/2020/10/24/html-refer/</loc>
+    <lastmod>2023-05-30</lastmod>
+  </url>
+  <url>
+    <loc>http://blog.ehoac.cn/2020/07/04/c-lang-note/</loc>
+    <lastmod>2023-05-30</lastmod>
+  </url>
+  <url>
+    <loc>http://blog.ehoac.cn/2020/03/21/debian-use/</loc>
+    <lastmod>2023-05-30</lastmod>
+  </url>
+  <url>
+    <loc>http://blog.ehoac.cn/2020/04/04/css-style-sheets/</loc>
+    <lastmod>2023-05-30</lastmod>
+  </url>
+  <url>
+    <loc>http://blog.ehoac.cn/2020/09/03/tkinter-note/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-09-30/6b6b0863340c.html</loc>
+    <loc>http://blog.ehoac.cn/2020/02/17/vimplus-shortcut/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-05-08/e68eed52f8fc.html</loc>
+    <loc>http://blog.ehoac.cn/2022/02/07/vscode-config-git-bash/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2021-02-07/08a6ef1c20c2.html</loc>
+    <loc>http://blog.ehoac.cn/2020/09/30/vue-note/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-11-04/3c55b4e07fdd.html</loc>
+    <loc>http://blog.ehoac.cn/2020/11/04/windows-note/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-09-03/125a5f857731.html</loc>
+    <loc>http://blog.ehoac.cn/2021/02/07/%E4%B8%AA%E4%BA%BA%E6%95%B0%E6%8D%AE%E5%AD%97%E5%85%B8/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-02-17/75a6e866c919.html</loc>
+    <loc>http://blog.ehoac.cn/2020/05/08/wsl-debian-record/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2021-01-15/7bc421094c82.html</loc>
+    <loc>http://blog.ehoac.cn/2021/01/15/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-07-09/747caea75dd9.html</loc>
+    <loc>http://blog.ehoac.cn/2020/07/09/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-11-06/3db09182c976.html</loc>
+    <loc>http://blog.ehoac.cn/2020/11/06/code-base/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-03-21/ebe1582da8ba.html</loc>
+    <loc>http://blog.ehoac.cn/2020/08/27/git-note/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2021-11-22/9c34b82e9069.html</loc>
+    <loc>http://blog.ehoac.cn/2021/11/22/docker-usage/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-10-24/16a88ee89e09.html</loc>
+    <loc>http://blog.ehoac.cn/2021/12/13/idea-shotcuts/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2021-12-13/a97532ab53a5.html</loc>
+    <loc>http://blog.ehoac.cn/2020/07/14/live-on-business/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-08-27/3bcb00bf218e.html</loc>
+    <loc>http://blog.ehoac.cn/2020/06/04/oracle-note/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-02-29/22c04ee88c54.html</loc>
+    <loc>http://blog.ehoac.cn/2020/03/01/python-Note/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-07-14/42d48633a687.html</loc>
+    <loc>http://blog.ehoac.cn/2020/03/31/redis-note/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-02-29/58bc5b206d5c.html</loc>
+    <loc>http://blog.ehoac.cn/2020/04/08/RESTful-design/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-06-04/3433c07a256a.html</loc>
+    <loc>http://blog.ehoac.cn/2020/02/19/linux-tools/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-03-01/9f918603eb6d.html</loc>
+    <loc>http://blog.ehoac.cn/2020/02/24/nginx-note/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-03-31/1809aeb23ff6.html</loc>
+    <loc>http://blog.ehoac.cn/2020/02/17/node-note/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-04-04/a9805c8a4e2c.html</loc>
+    <loc>http://blog.ehoac.cn/2020/02/29/question-record/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
   <url>
-    <loc>http://blog.ehoac.cn:8000/2020-02-19/6aa1afb8355b.html</loc>
-    <lastmod>2022-12-07</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.ehoac.cn:8000/2020-02-24/db0c282c5c1c.html</loc>
-    <lastmod>2022-12-07</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.ehoac.cn:8000/2020-02-18/e6afa4f59495.html</loc>
-    <lastmod>2022-12-07</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.ehoac.cn:8000/2020-02-24/20b2c880e803.html</loc>
-    <lastmod>2022-12-07</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.ehoac.cn:8000/2020-02-17/bdbc05d53da2.html</loc>
-    <lastmod>2022-12-07</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.ehoac.cn:8000/2020-02-29/6931b04d481c.html</loc>
-    <lastmod>2022-12-07</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.ehoac.cn:8000/2020-04-08/718ff79bda01.html</loc>
-    <lastmod>2022-12-07</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.ehoac.cn:8000/2020-02-24/f088a9af243f.html</loc>
-    <lastmod>2022-12-07</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.ehoac.cn:8000/2020-07-04/a642e2d69dd4.html</loc>
+    <loc>http://blog.ehoac.cn/2020/02/24/ubuntu-note/</loc>
     <lastmod>2022-12-07</lastmod>
   </url>
 </urlset> 
